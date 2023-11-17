@@ -38,3 +38,7 @@ module = {
   }
 }
 ```
+
+```shell
+terraform apply -destroy --auto-approve
+```
