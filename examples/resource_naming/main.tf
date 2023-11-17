@@ -18,6 +18,7 @@ locals {
     }
     vm = {
       resource_type = "azurerm_virtual_machine"
+      byte_length = 6
     }
   }
 }
@@ -29,4 +30,5 @@ module "naming" {
 
   resource_type = each.value.resource_type
   resource_name = each.key
+  random_byte_length = lookup(each.value, "byte_length", 12)
 }
