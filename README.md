@@ -2,7 +2,7 @@
 
 ## Examples
 
--[Basic example](./examples/resource_naming/readme.md)
+-[Basic example](./examples/resource_naming/README.md)
 
 ## Version 1.0.0 (latest)
 
